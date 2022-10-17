@@ -1,7 +1,10 @@
+import br.com.jonathan.desafio.dominio.Conteudo;
 import br.com.jonathan.desafio.dominio.Curso;
 import br.com.jonathan.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +23,7 @@ public class Main {
         mentoria1.setTitulo("Mentoria de Java");
         mentoria1.setDescricao("Repassando as vantagens e desvantagens da linguagem Java");
         mentoria1.setData(LocalDate.now());
+
 
         System.out.println(curso1);
         System.out.println(curso2);
